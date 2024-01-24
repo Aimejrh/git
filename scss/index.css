@@ -31,6 +31,21 @@ header .header nav a {
   font-size: 14px;
   letter-spacing: 1.4px;
 }
+@media (max-width: 510px) {
+  header .header nav {
+    display: none;
+  }
+}
+header .header p {
+  padding: 0 20px;
+  font-size: 40px;
+  opacity: 0.5;
+}
+@media (min-width: 510px) {
+  header .header p {
+    display: none;
+  }
+}
 
 main .section_1 {
   background-image: url(/images/img-logo/Rectangle\ \(7\).png);
@@ -67,4 +82,83 @@ main .section_1 .section_1-text div p {
 main .section_1 .section_1-text h3 {
   font-size: 13px;
   letter-spacing: 1.4px;
+}
+main .section_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+main .section_2 .section_2-blocks {
+  width: 100%;
+}
+main .section_2 .section_2-blocks .section_2-blocks-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 23px;
+  margin: 80px 0 80px;
+}
+main .section_2 .section_2-blocks .section_2-blocks-text h2 {
+  font-size: 43px;
+  line-height: 58px;
+}
+main .section_2 .section_2-blocks .section_2-blocks-text p {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+main .section_2 .section_2-blocks .section_2-blocks-text h3 {
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+}
+main .section_2 .section_2-blocks .section_2-blocks-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+}
+@media (max-width: 1233px) {
+  main .section_2 .section_2-blocks .section_2-blocks-cards {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+main .section_2 .section_2-blocks .section_2-blocks-cards .section_2-blocks-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  gap: 51px;
+}
+@media (max-width: 676px) {
+  main .section_2 .section_2-blocks .section_2-blocks-cards .section_2-blocks-card {
+    gap: 10px;
+  }
+}
+main .section_2 .section_2-blocks .section_2-blocks-cards .section_2-blocks-card div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+main .section_2 .section_2-blocks .section_2-blocks-cards .section_2-blocks-card div h2 {
+  font-size: 27px;
+  line-height: 30px;
+}
+main .section_2 .section_2-blocks .section_2-blocks-cards .section_2-blocks-card div p {
+  font-size: 13px;
+  letter-spacing: 1.4px;
+}
+@media (max-width: 676px) {
+  main .section_2 .section_2-blocks .section_2-blocks-cards .section_2-blocks-card div {
+    gap: 10px;
+    padding: 10px;
+  }
 }/*# sourceMappingURL=index.css.map */
