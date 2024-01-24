@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 header{
   display: flex;
@@ -22,9 +24,45 @@ header{
       a{
         text-decoration: none;
         color: black;
-        font-family: 'Roboto';
         font-size: 14px;
-        font-weight: 400;
+        letter-spacing: 1.4px;
+      }
+    }
+  }
+}
+main{
+  .section_1{
+    background-image: url(/images/img-logo/Rectangle\ \(7\).png);
+    background-size: cover;
+    background-origin: center;
+    background-position: center;
+    height: 504px;
+    width: 100%;
+    .section_1-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      color: white;
+      gap: 24px;
+      div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h1{
+          font-size: 43px;
+          line-height: 46px; 
+        }
+        p{
+          font-size: 15px;
+          letter-spacing: 0.8px
+        }
+      }
+      h3{
+        font-size: 13px;
         letter-spacing: 1.4px;
       }
     }
