@@ -198,10 +198,13 @@ main .section_3 .section_3-blocks .section_3-blocks-prodict {
   width: 100%;
 }
 main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper {
-  width: 500px;
+  width: 400px;
+  height: 400px;
   height: 100%;
 }
 main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper .swiper-wrapper .swiper-slide {
+  width: 400px;
+  height: 600px;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -209,6 +212,13 @@ main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper .swiper-wrap
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 23px;
+}
+main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper .swiper-wrapper .swiper-slide div p {
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.7px;
+  opacity: 0.5;
 }
 main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper .swiper-wrapper .swiper-slide .swiper-slide img {
   display: block;
