@@ -224,7 +224,14 @@ main{
     height: 504px;
     width: 100%;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     .section_4-block{
+      display: flex;
+      flex-direction: column;
       h2{}
       div{
         p{}
