@@ -304,4 +304,17 @@ main .section_5 .section_5-block .section_5-block-text .section_5-block-img {
 }
 main .section_5 .section_5-block .section_5-block-text .section_5-block-img img {
   width: 100%;
+}
+main .section_6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section_6 .section_6-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 50px;
 }/*# sourceMappingURL=index.css.map */
