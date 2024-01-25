@@ -163,6 +163,7 @@ main .section_2 .section_2-blocks .section_2-blocks-cards .section_2-blocks-card
   }
 }
 main .section_3 {
+  margin: 116px 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,6 +225,7 @@ main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper .swiper-wrap
   display: block;
 }
 main .section_4 {
+  margin: 95px 0 0;
   background-image: url(/images/img-logo/Rectangle\ \(14\).png);
   background-size: cover;
   background-origin: center;
@@ -240,4 +242,66 @@ main .section_4 {
 main .section_4 .section_4-block {
   display: flex;
   flex-direction: column;
+  gap: 14px;
+}
+main .section_4 .section_4-block h2 {
+  font-size: 66px;
+  line-height: 70px;
+}
+main .section_4 .section_4-block div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .section_4 .section_4-block div p {
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+main .section_4 .section_4-block div h4 {
+  font-size: 13px;
+  letter-spacing: 1.4px;
+}
+main .section_5 {
+  margin-top: 116px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+main .section_5 .section_5-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+main .section_5 .section_5-block .section_5-block-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  gap: 24px;
+}
+main .section_5 .section_5-block .section_5-block-text h2 {
+  font-size: 34px;
+  line-height: 36px;
+}
+main .section_5 .section_5-block .section_5-block-text p {
+  max-width: 777px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  opacity: 0.5;
+}
+main .section_5 .section_5-block .section_5-block-text .section_5-block-img {
+  max-width: 1055px;
+  width: 100%;
+}
+main .section_5 .section_5-block .section_5-block-text .section_5-block-img img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
