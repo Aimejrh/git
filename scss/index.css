@@ -222,4 +222,13 @@ main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper .swiper-wrap
 }
 main .section_3 .section_3-blocks .section_3-blocks-prodict .swiper .swiper-wrapper .swiper-slide .swiper-slide img {
   display: block;
+}
+main .section_4 {
+  background-image: url(/images/img-logo/Rectangle\ \(14\).png);
+  background-size: cover;
+  background-origin: center;
+  background-position: center;
+  height: 504px;
+  width: 100%;
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */
