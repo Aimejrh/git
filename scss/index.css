@@ -306,10 +306,31 @@ main .section_5 .section_5-block .section_5-block-text .section_5-block-img img 
   width: 100%;
 }
 main .section_6 {
+  margin-top: 38px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 79px;
+}
+main .section_6 .section_6-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+main .section_6 .section_6-text h2 {
+  font-size: 34px;
+  line-height: 36px;
+}
+main .section_6 .section_6-text p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  opacity: 0.5;
+  max-width: 777px;
 }
 main .section_6 .section_6-img {
   display: flex;
